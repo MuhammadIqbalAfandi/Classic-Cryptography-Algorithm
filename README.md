@@ -6,7 +6,7 @@
 
 **Gradle**
 
-``` 
+```gradle
 allprojects {
   repositories {
    ...
@@ -15,7 +15,7 @@ allprojects {
  }
 ```
 
-``` 
+```gradle
 dependencies {
     implementation 'com.github.MuhammadIqbalAfandi:Classic-Cryptography-Algorithm:0.1.0-alpha'
 }
