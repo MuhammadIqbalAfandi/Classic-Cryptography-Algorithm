@@ -1,10 +1,35 @@
-# **Cryptography Vigenere Cipher and Atbash Cipher**
+# **Classic Cryptography Algorithms**
 
 1. [Bahasa Indonesia](#bahasa-indonesia)
 
 2. [English Language](#english)
 
 ## **English**
+
+To get a Git project into your build:
+
+Step 1. Add the JitPack repository to your build file
+
+**Gradle**
+
+Add it in your root build.gradle at the end of repositories:
+
+``` 
+allprojects {
+  repositories {
+   ...
+   maven { url 'https://jitpack.io' }
+  }
+ }
+```
+
+Step 2. Add the dependency
+
+``` 
+dependencies {
+    implementation 'com.github.MuhammadIqbalAfandi:Classic-Cryptography-Algorithm:0.1.0-alpha'
+}
+```
 
 ## **List Of Character Supported**
 
