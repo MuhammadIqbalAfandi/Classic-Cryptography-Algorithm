@@ -1,0 +1,3 @@
+rootProject.name='Classic Cryptography Algorithm'
+include ':app'
+include ':classiccryptographyalgorithm'
