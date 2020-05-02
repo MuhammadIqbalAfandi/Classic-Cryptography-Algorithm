@@ -3,14 +3,14 @@
  * since april 2020.
  */
 
-package com.example.classiccryptographyalgorithm.algorithm
+package com.muhammadiqbalafandi.classiccryptographyalgorithm.algorithm
 
-import com.example.classiccryptographyalgorithm.Helpers.changeAsciiToString
-import com.example.classiccryptographyalgorithm.Helpers.changeStringToAscii
-import com.example.classiccryptographyalgorithm.Helpers.checkAsciiCharacterSupported
-import com.example.classiccryptographyalgorithm.Helpers.getCharacterValue
-import com.example.classiccryptographyalgorithm.Helpers.getIndexValue
-import com.example.classiccryptographyalgorithm.Helpers.repeatKeyWithKey
+import com.muhammadiqbalafandi.classiccryptographyalgorithm.Helpers.changeAsciiToString
+import com.muhammadiqbalafandi.classiccryptographyalgorithm.Helpers.changeStringToAscii
+import com.muhammadiqbalafandi.classiccryptographyalgorithm.Helpers.checkAsciiCharacterSupported
+import com.muhammadiqbalafandi.classiccryptographyalgorithm.Helpers.getCharacterValue
+import com.muhammadiqbalafandi.classiccryptographyalgorithm.Helpers.getIndexValue
+import com.muhammadiqbalafandi.classiccryptographyalgorithm.Helpers.repeatKeyWithKey
 
 /**
  * class that provides functions for

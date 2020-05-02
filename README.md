@@ -6,13 +6,9 @@
 
 ## **English**
 
-To get a Git project into your build:
-
-Step 1. Add the JitPack repository to your build file
+### **Instalation**
 
 **Gradle**
-
-Add it in your root build.gradle at the end of repositories:
 
 ``` 
 allprojects {
@@ -23,21 +19,19 @@ allprojects {
  }
 ```
 
-Step 2. Add the dependency
-
 ``` 
 dependencies {
     implementation 'com.github.MuhammadIqbalAfandi:Classic-Cryptography-Algorithm:0.1.0-alpha'
 }
 ```
 
-## **List Of Character Supported**
+### **List Of Character Supported**
 
 ```
 "!\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\ ^_`abcdefghijklmnopqrstuvwxyz{|}~"
 ```
 
-## **Supported Character Index Values**
+### **Supported Character Index Values**
 
 ```
 !  "  #  $  %  &  '  (  )  *  +   ,   -   .   /   0   1   2   3   4   5   6   7   8   9   :   ;   <   =   >   ?   @   A   B   C   D   E
@@ -53,7 +47,7 @@ h  i  j  k  l  m  n  o  p  q  r  s  t  u  v  w  x  y  z  {  |  }  ~
 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93
 ```
 
-## **How to Atbash Cipher Encryption and Decryption Process in Applications**
+### **How to Atbash Cipher Encryption and Decryption Process in Applications**
 
 **Encryption**
 
@@ -89,7 +83,7 @@ decryption, because the value is still in the form of an index take its characte
 based on the index you can see
 [here](#supported-character-index-values).
 
-## **What is the Vigenere Cipher Encryption and Decryption Process in Applications**
+### **What is the Vigenere Cipher Encryption and Decryption Process in Applications**
 
 **Encryption**
 
@@ -127,7 +121,26 @@ based on the index you can see
 
 ## **Bahasa Indonesia**
 
-## **Bagaimana Proses Enkripsi dan Dekripsi Atbash Cipher dalam Aplikasi**
+### **Instalasi**
+
+**Gradle**
+
+``` 
+allprojects {
+  repositories {
+   ...
+   maven { url 'https://jitpack.io' }
+  }
+ }
+```
+
+``` 
+dependencies {
+    implementation 'com.github.MuhammadIqbalAfandi:Classic-Cryptography-Algorithm:0.1.0-alpha'
+}
+```
+
+### **Bagaimana Proses Enkripsi dan Dekripsi Atbash Cipher dalam Aplikasi**
 
 **Enkripsi**
 
@@ -164,7 +177,7 @@ dekripsi, karena nilai itu masi dalam bentuk index ambil nilai karakternya
 berdasarkan index tersebut bisa lihat
 [disini](#supported-character-index-values).
 
-## **Bagaimana Proses Enkripsi dan Dekripsi Vigenere Cipher dalam Aplikasi**
+### **Bagaimana Proses Enkripsi dan Dekripsi Vigenere Cipher dalam Aplikasi**
 
 **Enkripsi**
 

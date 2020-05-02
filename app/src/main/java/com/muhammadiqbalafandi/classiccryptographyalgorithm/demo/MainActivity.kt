@@ -1,7 +1,8 @@
-package com.example.classiccryptographyalgorithm
+package com.muhammadiqbalafandi.classiccryptographyalgorithm.demo
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
+import com.muhammadiqbalafandi.classiccryptographyalgorithm.R
 
 class MainActivity : AppCompatActivity() {
 

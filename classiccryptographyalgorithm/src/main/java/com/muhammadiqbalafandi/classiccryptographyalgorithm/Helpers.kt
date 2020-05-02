@@ -3,7 +3,7 @@
  * since april 2020.
  */
 
-package com.example.classiccryptographyalgorithm
+package com.muhammadiqbalafandi.classiccryptographyalgorithm
 
 /**
  * Class that provides helper functions.
@@ -52,7 +52,9 @@ object Helpers {
      */
     fun getCharacterValue(index: Int): Int {
         for (supportedCharacterValue in LIST_OF_SUPPORTED_CHARACTERS.withIndex()) {
-            if (index == supportedCharacterValue.index) return changeStringToAscii(supportedCharacterValue.value.toString())[0]
+            if (index == supportedCharacterValue.index) return changeStringToAscii(
+                supportedCharacterValue.value.toString()
+            )[0]
         }
         return 0
     }
@@ -64,7 +66,9 @@ object Helpers {
      * @return Return the index value of the supported character.
      */
     fun getIndexValue(ascii: Int): Int {
-        for ((index, value) in changeStringToAscii(LIST_OF_SUPPORTED_CHARACTERS).withIndex()) {
+        for ((index, value) in changeStringToAscii(
+            LIST_OF_SUPPORTED_CHARACTERS
+        ).withIndex()) {
             if (ascii == value) return index
         }
         return 0
@@ -77,14 +81,22 @@ object Helpers {
      * @return Return string without spaces.
      */
     fun removeSpace(string: String): String {
-        val listValueAsciiString: MutableList<Int> = changeStringToAscii(string)
+        val listValueAsciiString: MutableList<Int> =
+            changeStringToAscii(
+                string
+            )
         val valueStringWithoutSpaces: MutableList<Int> = mutableListOf()
         listValueAsciiString.forEach { valueAsciiString ->
-            if (checkAsciiCharacterSupported(valueAsciiString)) valueStringWithoutSpaces.add(
+            if (checkAsciiCharacterSupported(
+                    valueAsciiString
+                )
+            ) valueStringWithoutSpaces.add(
                 valueAsciiString
             )
         }
-        return changeAsciiToString(valueStringWithoutSpaces)
+        return changeAsciiToString(
+            valueStringWithoutSpaces
+        )
     }
 
     /**
@@ -95,12 +107,21 @@ object Helpers {
      * @return Return a key that has been added with the key string.
      */
     fun repeatKeyWithKey(key: String, plaintext: String): String {
-        val listValueAsciiKey: MutableList<Int> = changeStringToAscii(removeSpace(key))
-        val listValueAsciiPlaintext: MutableList<Int> = changeStringToAscii(plaintext)
+        val listValueAsciiKey: MutableList<Int> =
+            changeStringToAscii(
+                removeSpace(key)
+            )
+        val listValueAsciiPlaintext: MutableList<Int> =
+            changeStringToAscii(
+                plaintext
+            )
         val temporaryKeyValue: MutableList<Int> = mutableListOf()
         var keyIndexValue = 0
         for (plaintextAsciiValue in listValueAsciiPlaintext) {
-            if (checkAsciiCharacterSupported(plaintextAsciiValue)) {
+            if (checkAsciiCharacterSupported(
+                    plaintextAsciiValue
+                )
+            ) {
                 temporaryKeyValue.add(listValueAsciiKey[keyIndexValue])
                 if (keyIndexValue >= listValueAsciiKey.size - 1) keyIndexValue =
                     0 else keyIndexValue += 1
@@ -108,7 +129,9 @@ object Helpers {
                 temporaryKeyValue.add(plaintextAsciiValue)
             }
         }
-        return changeAsciiToString(temporaryKeyValue)
+        return changeAsciiToString(
+            temporaryKeyValue
+        )
     }
 
     /**
@@ -119,15 +142,29 @@ object Helpers {
      * @return Return a key that has been added with the plaintext string.
      */
     fun repeatKeyWithPlaintext(key: String, plaintext: String): String {
-        val listValueAsciiKey: MutableList<Int> = changeStringToAscii(removeSpace(key))
-        val listValueAsciiPlaintext: MutableList<Int> = changeStringToAscii(plaintext)
+        val listValueAsciiKey: MutableList<Int> =
+            changeStringToAscii(
+                removeSpace(key)
+            )
+        val listValueAsciiPlaintext: MutableList<Int> =
+            changeStringToAscii(
+                plaintext
+            )
         val temporaryKeyValue: MutableList<Int> = mutableListOf()
         var keyIndexValue = 0
         var plaintextIndexValue = 0
         for (plaintextAsciiValue in listValueAsciiPlaintext) {
-            if (checkAsciiCharacterSupported(plaintextAsciiValue)) {
+            if (checkAsciiCharacterSupported(
+                    plaintextAsciiValue
+                )
+            ) {
                 if (keyIndexValue > listValueAsciiKey.size - 1) {
-                    temporaryKeyValue.add(changeStringToAscii(removeSpace(plaintext))[plaintextIndexValue])
+                    temporaryKeyValue.add(
+                        changeStringToAscii(
+                            removeSpace(
+                                plaintext
+                            )
+                        )[plaintextIndexValue])
                     plaintextIndexValue += 1
                 } else {
                     temporaryKeyValue.add(listValueAsciiKey[keyIndexValue])
@@ -137,7 +174,9 @@ object Helpers {
                 temporaryKeyValue.add(plaintextAsciiValue)
             }
         }
-        return changeAsciiToString(temporaryKeyValue)
+        return changeAsciiToString(
+            temporaryKeyValue
+        )
     }
 
     /**

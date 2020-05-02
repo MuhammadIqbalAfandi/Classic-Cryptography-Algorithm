@@ -1,4 +1,4 @@
-package com.example.classiccryptographyalgorithm
+package com.muhammadiqbalafandi.classiccryptographyalgorithm
 
 import org.junit.Before
 import org.junit.Test

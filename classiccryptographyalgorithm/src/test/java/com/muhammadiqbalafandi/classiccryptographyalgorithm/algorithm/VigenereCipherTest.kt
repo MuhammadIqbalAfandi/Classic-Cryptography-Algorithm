@@ -1,4 +1,4 @@
-package com.example.classiccryptographyalgorithm.algorithm
+package com.muhammadiqbalafandi.classiccryptographyalgorithm.algorithm
 
 import org.junit.Before
 import org.junit.Test
@@ -11,7 +11,8 @@ class VigenereCipherTest {
     @Before
     fun before() {
         vigenereCipher = mock(VigenereCipher::class.java)
-        vigenereCipher = VigenereCipher
+        vigenereCipher =
+            VigenereCipher
     }
 
     @Test
