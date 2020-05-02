@@ -36,4 +36,8 @@ dependencies {
 
     testImplementation group: 'org.mockito', name: 'mockito-core', version: '3.0.0'
     testImplementation 'org.mockito:mockito-inline:3.0.0'
+
+    // Publish an Android library
+    apply plugin: 'com.github.dcendents.android-maven'
+    group='com.github.MuhammadIqbalAfandi'
 }
