@@ -4,6 +4,8 @@
 
 **Gradle**
 
+Selalu periksa versi terbaruh
+
 ```gradle
 allprojects {
   repositories {
@@ -15,7 +17,7 @@ allprojects {
 
 ```gradle
 dependencies {
-    implementation 'com.github.MuhammadIqbalAfandi:Classic-Cryptography-Algorithm:0.1.0-alpha'
+    implementation 'com.github.MuhammadIqbalAfandi:Classic-Cryptography-Algorithm:0.2.0-alpha'
 }
 ```
 
