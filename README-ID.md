@@ -1,4 +1,4 @@
-# **Algoritma Kriptorapi Klasik**
+# **Algoritma Kriptograpi Klasik**
 
 ### **Instalasi**
 
@@ -103,76 +103,17 @@ h  i  j  k  l  m  n  o  p  q  r  s  t  u  v  w  x  y  z  {  |  }  ~
 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93
 ```
 
-### **Bagaimana Proses Enkripsi dan Dekripsi Atbash Cipher dalam Aplikasi**
-
-**Enkripsi**
-
-Ada 2 proses enkripsi atbash cipher :
+### **Bagaimana Proses Enkripsi dan Dekripsi Vigenere Cipher dan Atbash Cipher dalam Aplikasi**
 
 1. Mengecek setiap karakter plaintext (text asli), apakah karakter plaintext
 termasuk kedalam karakter yang didukung untuk di enkripsi, silahkan lihat
-[disini](#list-of-character-supported) karakter apa saja yang bisa di enkripsi.
+[disini](#daftar-karakter-yang-didukung) karakter apa saja yang bisa di enkripsi.
 
 2. Mengenkripsi setiap karakter plaintext yang didukung, dengan cara mencari
 nilai index setiap karakter plaintext
-silahkan lihat [disini](#supported-character-index-values) untuk melihat nilai
+silahkan lihat [disini](#nilai-index-karakter-yang-didukung) untuk melihat nilai
 index dari setiap karakter, setelah mendapatkan nilai index karakternya masukan
-kedalam rumus Atbash Ciphernya maka didapat nilai index karakter yang sudah di
-enkripsi, karena nilai itu masi dalam bentuk index ambil nilai karakternya
-berdasarkan index tersebut bisa lihat
-[disini](#supported-character-index-values).
-
-**Dekripsi**
-
-Ada 2 prosess dekripsi atbash cipher :
-
-1. Mengecek setiap karakter ciphertext (text terenkripsi), apakah karakter
-ciphertext termasuk kedalam karakter yang didukung untuk di dekripsi,
-silahkan lihat [disini](#list-of-character-supported) karakter apa saja yang
-bisa di dekripsi.
-
-2. Mengdekripsi setiap karakter ciphertext yang didukung, dengan cara mencari
-nilai index setiap karakter ciphertext silahkan lihat
-[disini](#supported-character-index-values) untuk melihat nilai index dari
-setiap karakter, setelah mendapatkan nilai index karakternya masukan
-kedalam rumus Atbash Ciphernya maka didapat nilai index karakter yang sudah di
-dekripsi, karena nilai itu masi dalam bentuk index ambil nilai karakternya
-berdasarkan index tersebut bisa lihat
-[disini](#supported-character-index-values).
-
-### **Bagaimana Proses Enkripsi dan Dekripsi Vigenere Cipher dalam Aplikasi**
-
-**Enkripsi**
-
-Ada 2 proses enkripsi atbash cipher :
-
-1. Mengecek setiap karakter plaintext (text asli), apakah karakter plaintext
-termasuk kedalam karakter yang didukung untuk di enkripsi, silahkan lihat
-[disini](#list-of-character-supported) karakter apa saja yang bisa di enkripsi.
-
-2. Mengenkripsi setiap karakter plaintext yang didukung, dengan cara mencari
-nilai index setiap karakter plaintext
-silahkan lihat [disini](#supported-character-index-values) untuk melihat nilai
-index dari setiap karakter, setelah mendapatkan nilai index karakternya masukan
-kedalam rumus Vigenere Ciphernya maka didapat nilai index karakter yang sudah di
-enkripsi, karena nilai itu masi dalam bentuk index ambil nilai karakternya
-berdasarkan index tersebut bisa lihat
-[disini](#supported-character-index-values).
-
-**Dekripsi**
-
-Ada 2 proses enkripsi atbash cipher :
-
-1. Mengecek setiap karakter ciphertext (text terenkripsi), apakah karakter
-ciphertext termasuk kedalam karakter yang didukung untuk di dekripsi,
-silahkan lihat [disini](#list-of-character-supported) karakter apa saja yang
-bisa di dekripsi.
-
-2. Mengdekripsi setiap karakter ciphertext yang didukung, dengan cara mencari
-nilai index setiap karakter ciphertext silahkan lihat
-[disini](#supported-character-index-values) untuk melihat nilai index dari
-setiap karakter, setelah mendapatkan nilai index karakternya masukan
-kedalam rumus Vigenere Ciphernya maka didapat nilai index karakter yang sudah di
-dekripsi, karena nilai itu masi dalam bentuk index ambil nilai karakternya
-berdasarkan index tersebut bisa lihat
-[disini](#supported-character-index-values).
+kedalam rumus maka didapat nilai index karakter yang sudah di enkripsi, karena
+nilai itu masi dalam bentuk index ambil nilai karakternya berdasarkan index
+tersebut bisa lihat [disini](#nilai-index-karakter-yang-didukung).
+Hal yang sama juga berlaku untuk dekripsi.

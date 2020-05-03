@@ -105,11 +105,7 @@ h  i  j  k  l  m  n  o  p  q  r  s  t  u  v  w  x  y  z  {  |  }  ~
 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93
 ```
 
-### **How to Atbash Cipher Encryption and Decryption Process in Applications**
-
-**Encryption**
-
-There are two processes atbash cipher encryption :
+### **How to Process Encryption and Decryption of Vigenere Cipher and Atbash Cipher in Applications**
 
 1. Check each plaintext character (original text), what is the plaintext character
 included in the characters that are supported for encryption, please see
@@ -119,60 +115,7 @@ included in the characters that are supported for encryption, please see
 the index value of each plaintext character
 please see [here](#supported-character-index-values) to see values
 index of each character, after getting the character index value input
-into the Atbash Cipher formula we get the character index value already in
-encryption, because the value is still in the form of an index take the character value
-based on the index you can see
-[here](#supported-character-index-values).
-
-**Decryption**
-
-There are two prosses atbash cipher decryption :
-
-1. Check each plaintext character (original text), what is the plaintext character
-included in the characters that are supported for encryption, please see
-[here](#list-of-character-supported) what characters can be encrypted.
-
-2. Decrypt each supported ciphertext character, by searching
-the index value of each ciphertext character please see
-[here](#supported-character-index-values) to see the index value of
-each character, after getting the character index value input
-into the Atbash Cipher formula we get the character index value already in
-decryption, because the value is still in the form of an index take its character value
-based on the index you can see
-[here](#supported-character-index-values).
-
-### **What is the Vigenere Cipher Encryption and Decryption Process in Applications**
-
-**Encryption**
-
-There are two processes atbash cipher encryption :
-
-1. Check each plaintext character (original text), what is the plaintext character
-included in the characters that are supported for encryption, please see
-[here](#list-of-character-supported) what characters can be encrypted.
-
-2. Encrypt every supported plaintext character, by searching
-the index value of each plaintext character
-please see [here](#supported-character-index-values) to see values
-index of each character, after getting the character index value input
-into the Vigenere Cipher formula we get the character index value already in
-encryption, because the value is still in the form of an index take the character value
-based on the index you can see
-[here](#supported-character-index-values).
-
-**Decryption**
-
-There are two prosses atbash cipher decryption :
-
-1. Check each plaintext character (original text), what is the plaintext character
-included in the characters that are supported for encryption, please see
-[here](#list-of-character-supported) what characters can be encrypted.
-
-2. Decrypt each supported ciphertext character, by searching
-the index value of each ciphertext character please see
-[here](#supported-character-index-values) to see the index value of
-each character, after getting the character index value input
-into the Vigenere Cipher formula we get the character index value already in
-decryption, because the value is still in the form of an index take its character value
-based on the index you can see
-[here](#supported-character-index-values).
+into the formula we get the character index value already in
+encryption, because the value is still in the form of an index take the
+character value based on the index you can see
+[here](#supported-character-index-values). The same thing applies to decryption.
