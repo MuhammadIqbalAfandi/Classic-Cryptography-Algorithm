@@ -59,6 +59,16 @@ object Helpers {
         return 0
     }
 
+    // TODO: 8/10/20 Refactoring code
+    fun getCharacterValueForAtbash(index: Int): Int {
+        for (supportedCharacterValue in LIST_OF_SUPPORTED_CHARACTERS.withIndex()) {
+            if (index == supportedCharacterValue.index + 1) return changeStringToAscii(
+                supportedCharacterValue.value.toString()
+            )[0]
+        }
+        return 0
+    }
+
     /**
      * Take the character index value.
      *

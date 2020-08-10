@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Classic Cryptography Algorithm.iml" filepath="$PROJECT_DIR$/Classic Cryptography Algorithm.iml" group="Classic Cryptography Algorithm" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Classic_Cryptography_Algorithm.iml" filepath="$PROJECT_DIR$/.idea/modules/Classic_Cryptography_Algorithm.iml" group="Classic_Cryptography_Algorithm" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="Classic Cryptography Algorithm/app" />
       <module fileurl="file://$PROJECT_DIR$/classiccryptographyalgorithm/classiccryptographyalgorithm.iml" filepath="$PROJECT_DIR$/classiccryptographyalgorithm/classiccryptographyalgorithm.iml" group="Classic Cryptography Algorithm/classiccryptographyalgorithm" />
     </modules>

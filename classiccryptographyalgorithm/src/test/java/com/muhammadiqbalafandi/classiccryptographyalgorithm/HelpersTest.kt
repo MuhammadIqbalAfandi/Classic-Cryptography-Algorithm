@@ -71,5 +71,10 @@ class HelpersTest {
 
     @Test
     fun modulus() {
+//        val result = ((Helpers.modulus(-15, 26)) + 1)
+//        val result = ((0 - 7) + 26) % 26
+//        val result = (93 + 93) % 94
+//        print(result)
     }
+
 }

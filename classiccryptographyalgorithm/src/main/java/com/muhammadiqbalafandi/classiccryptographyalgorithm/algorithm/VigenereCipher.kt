@@ -28,7 +28,9 @@ object VigenereCipher {
         val listValueAsciiPlaintext: MutableList<Int> = changeStringToAscii(plaintext)
         val listValueAsciiKey: MutableList<Int> =
             changeStringToAscii(repeatKeyWithKey(key, plaintext))
+
         val ciphertextValue: MutableList<Int> = mutableListOf()
+
         for (plaintextAsciiValue in listValueAsciiPlaintext.withIndex()) {
             if (checkAsciiCharacterSupported(plaintextAsciiValue.value)) {
                 val plaintextIndexValue = getIndexValue(plaintextAsciiValue.value)
@@ -60,6 +62,7 @@ object VigenereCipher {
         val listValueAsciiCiphertext: MutableList<Int> = changeStringToAscii(ciphertext)
         val listValueAsciiKey: MutableList<Int> =
             changeStringToAscii(repeatKeyWithKey(key, ciphertext))
+
         val plaintextValue: MutableList<Int> = mutableListOf()
 
         for (ciphertextAsciiValue in listValueAsciiCiphertext.withIndex()) {
